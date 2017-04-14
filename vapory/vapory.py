@@ -214,6 +214,9 @@ class Radiosity(POVRayElement):
 class SlopeMap(POVRayMap):
     """ SlopeMap( [0, slope1], [.5, slope2], [0.8, slope3], [1, slope4]) """
 
+class SkySphere(POVRayElement):
+    """ SkySphere( Pigment(color_rgb) ) """
+
 class Sphere(POVRayElement):
     """ Sphere(location_xyz, radius, *a) """
 
